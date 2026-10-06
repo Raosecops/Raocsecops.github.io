@@ -26,78 +26,78 @@ twitter:
 social:
   name: Rao
   email: reocybersec@gmail.com
-  fediverse_handle: 
+  fediverse_handle: ""
   links:
     - https://twitter.com/username
     - https://github.com/raosecops
 
 # Site Verification Settings
 webmaster_verifications:
-  google: 
-  bing: 
-  alexa: 
-  yandex: 
-  baidu: 
-  facebook: 
+  google: ""
+  bing: ""
+  alexa: ""
+  yandex: ""
+  baidu: ""
+  facebook: ""
 
 # Web Analytics Settings
 analytics:
   google:
-    id: 
+    id: ""
   goatcounter:
-    id: 
+    id: ""
   umami:
-    id: 
-    domain: 
+    id: ""
+    domain: ""
   matomo:
-    id: 
-    domain: 
+    id: ""
+    domain: ""
   cloudflare:
-    id: 
+    id: ""
   fathom:
-    id: 
+    id: ""
 
 pageviews:
-  provider: 
+  provider: ""
 
-theme_mode: 
+theme_mode: ""
 
-cdn:
+cdn: ""
 
 avatar: "/assets/img/profile.jpeg"
 
-social_preview_image: 
+social_preview_image: ""
 
 toc: true
 
 comments:
-  provider: 
+  provider: ""
   disqus:
-    shortname: 
+    shortname: ""
   utterances:
-    repo: 
-    issue_term: 
+    repo: ""
+    issue_term: ""
   giscus:
-    repo: 
-    repo_id:
-    category:
-    category_id:
-    mapping: 
-    strict: 
-    input_position: 
-    lang: 
-    reactions_enabled: 
+    repo: ""
+    repo_id: ""
+    category: ""
+    category_id: ""
+    mapping: ""
+    strict: ""
+    input_position: ""
+    lang: ""
+    reactions_enabled: ""
 
 assets:
   self_host:
-    enabled: 
-    env: 
+    enabled: false
+    env: ""
 
 pwa:
   enabled: true
   cache:
     enabled: true
-    deny_paths:
+    deny_paths: []
 
 paginate: 10
 
@@ -147,4 +147,27 @@ compress_html:
   clippings: all
   comments: all
   endings: all
-  profile
+  profile: false
+  blanklines: false
+  ignore:
+    envs: [development]
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - README.md
+  - LICENSE
+  - purgecss.js
+  - "*.config.js"
+  - "package*.json"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
