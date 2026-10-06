@@ -14,16 +14,16 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "Rao T"
-tagline: "CS Graduate | Cybersecurity Practitioner | Cloud Security Engineering Enthusiast"
+title: "Rao Secops"
+tagline: "Software Engineer | Cybersecurity Expert | Cloud Security Engineer"
 description: >-
   Documenting my journey into Cybersecurity.
   Focused on Network Analysis, Cloud Security Emgineering and Proof of Work labs.
 
-url: "https://Raocybersec.github.io"
+url: "https://raosecops.github.io"
 
 github:
-  username: raocybersec # change to your GitHub username
+  username: raosecops # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
@@ -37,7 +37,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/raocybersec # change to your GitHub homepage
+    - https://github.com/raosecops # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -148,7 +148,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "raosecops.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
