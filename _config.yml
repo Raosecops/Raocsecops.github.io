@@ -69,23 +69,9 @@ social_preview_image: ""
 
 toc: true
 
+# Comments disabled to prevent include errors
 comments:
-  provider: ""
-  disqus:
-    shortname: ""
-  utterances:
-    repo: ""
-    issue_term: ""
-  giscus:
-    repo: ""
-    repo_id: ""
-    category: ""
-    category_id: ""
-    mapping: ""
-    strict: ""
-    input_position: ""
-    lang: ""
-    reactions_enabled: ""
+  provider: 
 
 assets:
   self_host:
